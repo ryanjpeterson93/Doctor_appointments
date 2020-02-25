@@ -1,6 +1,5 @@
 class AppointmentsController < ApplicationController
-
-  before_action :set_patient
+before_action :set_patient
 
   def index
     @appointments = Appointment.all
@@ -32,7 +31,7 @@ class AppointmentsController < ApplicationController
     @patient = Patient.find(params[:patient_id])
   end
 
-  def enrollment_params
+  def appointment_params
     params.require(:appointment).permit(:date, :patient_id, :doctor_id)
   end
 end
