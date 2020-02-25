@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 2020_02_24_225759) do
 
   create_table "appointments", force: :cascade do |t|
-    t.datetime "appointment_time"
+    t.date "date"
     t.integer "doctor_id", null: false
     t.integer "patient_id", null: false
     t.datetime "created_at", precision: 6, null: false

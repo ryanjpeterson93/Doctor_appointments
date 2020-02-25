@@ -1,0 +1,12 @@
+<h1>Appointments#index</h1>
+
+<%= link_to "Add Appointment", new_patient_appointment_path(@patient) %>
+
+
+<h2>Appointments</h2>
+<ul>
+  <% @appointments.each do |appointment| %>
+    <li><%= appointment.date %></li>
+    <%= link_to "Remove", patient_appointment_path(@patient, appointment), method: :delete  %>
+  <% end %>
+</ul>

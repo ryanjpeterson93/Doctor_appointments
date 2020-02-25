@@ -1,2 +1,2 @@
-<h1>Patients#show</h1>
-<p>Find me in app/views/patients/show.html.erb</p>
+<h1><%= @patient.full_name %></h1>
+<%= link_to "Appointments", patient_appointments_path(@patient), class:'ui button' %>
