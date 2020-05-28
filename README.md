@@ -1,4 +1,4 @@
-# Ruby Lunch Lady
+# Ruby Doctor's Appointments
 
 ### Assignment given as part of the DevPoint Labs Full Stack Web Development Course
 
