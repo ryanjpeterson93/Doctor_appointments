@@ -1,24 +1,22 @@
-# README
+# Ruby Lunch Lady
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Assignment given as part of the DevPoint Labs Full Stack Web Development Course
 
-Things you may want to cover:
+#### Week 3
 
-* Ruby version
+Basic Objectives:
 
-* System dependencies
+-Create a new rails app and a git repo.
 
-* Configuration
+-Create models (hint: users and doctors have many appointments, a user should have many doctors THROUGH appointments, etc.)
 
-* Database creation
+-Create controllers that manage all CRUD actions for each model.
 
-* Database initialization
+-Create Views.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Bonus Objectives:
 
-* Deployment instructions
+-Style your rails app using Bootstrap, Materialize, Foundation, Semantic UI, etc.
 
-* ...
+-Add the has many through to your billboards assignment
